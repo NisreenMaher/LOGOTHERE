@@ -1,0 +1,538 @@
+html,
+body,
+header,
+.view {
+  min-height: 100vh;
+}
+h1 {
+  width: 390px;
+  height: 100px;
+  text-align: left;
+  font: normal normal bold 2rem/51px Montserrat !important;
+  letter-spacing: 0px;
+  color: #303336;
+  opacity: 1;
+}
+.ch {
+  width: 100%;
+  height: 94px;
+  text-align: left;
+  font: normal normal normal 10px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #7b8591;
+  opacity: 1;
+}
+
+.navbar-brand img {
+  width: 80px;
+  height: 55px;
+  text-align: center;
+  margin-top: 52%;
+  margin-left: 29%;
+}
+.navbar-brand {
+  position: absolute;
+  transform: translateX(-50%);
+  top: -88px;
+  left: 50%;
+  width: 182px;
+  height: 170px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000042;
+  border-radius: 45px;
+  opacity: 1;
+}
+.form-group {
+  position: relative;
+}
+btn-info:not(:disabled):not(.disabled).active:focus,
+.btn-info:not(:disabled):not(.disabled):active:focus,
+.show > .btn-info.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+.btn-info.focus,
+.btn-info:focus {
+  box-shadow: none !important;
+}
+.btn.focus,
+.btn:focus {
+  outline: 0;
+
+  box-shadow: none !important;
+}
+.form-group span {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #cdd0d9;
+}
+.navbar-nav {
+  width: 100%;
+  margin-top: 6rem;
+}
+.ser {
+  text-align: left;
+  font: normal normal normal 10px/25px Montserrat;
+  letter-spacing: 0px;
+  border-color: transparent !important;
+  color: #c1c1c1 !important;
+  opacity: 0.64;
+  width: 72% !important;
+  height: calc(1em + 0.5rem + 2px) !important;
+}
+input[type="search"]::placeholder {
+  /* Firefox, Chrome, Opera */
+  padding-left: 25px;
+}
+.nav-link {
+  text-align: left;
+  font: normal normal normal 10px/20px Montserrat;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.modal-header .close {
+  margin-top: -1.5rem;
+}
+
+.form-title {
+  margin: -2rem 0rem 2rem;
+}
+
+.btn-round {
+  border-radius: 3rem;
+}
+.btn-info {
+  color: #fff;
+  background-color: #4621ad !important;
+  border-color: #4621ad !important;
+}
+.delimiter {
+  padding: 1rem;
+}
+*:focus {
+  outline: none;
+}
+.form-group .form-control input:focus {
+  outline: none !important;
+}
+.social-buttons .btn {
+  margin: 0 0.5rem 1rem;
+}
+
+.signup-section {
+  padding: 0.3rem 0rem;
+}
+.mx-3 {
+  margin-right: 0.5rem !important;
+}
+.pa2 {
+  margin-top: -0.8rem;
+}
+.nav-link:after {
+  display: block;
+  content: "";
+  border-bottom: 3px solid #ffffff;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.article-view .nav-link:after {
+  border-bottom: 3px solid #4723ae;
+}
+.nav-link:hover:after {
+  transform: scaleX(1);
+}
+.form-group .form-control {
+  border-radius: 3rem;
+}
+
+.navbar-toggler :focus {
+  outline: transparent;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.row {
+  margin-left: 20%;
+}
+.jumbotron {
+  background-color: transparent !important;
+  margin-top: -0.5rem;
+}
+.jumbotron h1 {
+  width: 278px;
+  height: 49px;
+  text-align: center;
+  font: normal normal bold 40px/49px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 1;
+}
+.jumbotron p {
+  width: 544px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 36px;
+  text-align: center;
+  font: normal normal normal 12px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.pa {
+  width: 142px;
+  height: 19px;
+  text-align: center;
+  font: normal normal bold 12px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.s img {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 1rem;
+}
+button,
+button:focus,
+button:active {
+  outline: none !important;
+}
+.form-control input,
+input:focus,
+input:active {
+  outline: none !important;
+}
+
+.btns {
+  width: 235px;
+  height: 43px;
+  border: 1px solid #ffffff;
+  border-radius: 22px !important;
+  opacity: 1;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 12px #0000000d;
+  border-radius: 22px;
+  opacity: 1;
+  color: #4621ad;
+}
+.sig {
+  background-color: transparent;
+  color: white;
+}
+
+.pa2 {
+  height: 35px;
+  text-align: center;
+  font: normal normal normal 12px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.article-view {
+  background: white !important;
+}
+.article-view .navbar-dark .navbar-nav .nav-link {
+  color: #c6c6d4;
+}
+.article-view .navbar-dark .navbar-nav .nav-link:hover {
+  color: black;
+}
+.article-view .navbar-dark .navbar-nav .nav-link.active {
+  color: black !important;
+}
+.radio-tile-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.input-container {
+  position: relative;
+  padding-left: 13px;
+  height: 7rem;
+  width: 7rem;
+  margin: 0.5rem;
+}
+
+.radio-button {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.radio-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 103px;
+  height: 116px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: transform 300ms ease;
+}
+
+.radio-button:checked + .radio-tile {
+  background-color: #4621ad;
+  border: 2px solid white;
+  color: white;
+  transform: scale(1.1, 1.1);
+}
+.radio-tile-group .radio-button:checked + .radio-tile .icon svg path {
+  fill: white;
+}
+.radio-button:checked + .radio-tile .radio-tile-label {
+  color: white;
+  background-color: #4621ad;
+}
+.form-control:focus {
+  border-color: #4621ad !important;
+
+  box-shadow: unset !important;
+}
+.form-control {
+  border-color: #4621ad !important;
+}
+.form-control::placeholder,
+.form-control {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cdd0d9 !important;
+  font-family: Montserrat;
+  font-size: 12px;
+  opacity: 1; /* Firefox */
+}
+.form-group .btn-primary {
+  color: #cdd0d9 !important;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 1; /* Firefox */
+  background-color: white !important;
+  border-color: #4621ad;
+  text-align: left;
+}
+
+@media (min-width: 1200px) {
+  .art {
+    margin-left: 4rem !important;
+  }
+  .imag {
+    padding-right: 66px !important;
+  }
+  .s {
+    width: 947px;
+
+    margin-left: 5rem !important;
+  }
+  .navbar-nav {
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 1200px) {
+  .jumbotron {
+    background-color: transparent !important;
+    margin-top: 0rem;
+    margin-left: 2rem;
+  }
+  .navbar-nav {
+    margin-left: 2.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .pa2 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: revert;
+  }
+  .ss {
+    margin-top: -1rem;
+  }
+  .navbar-brand {
+    position: absolute;
+    transform: translateX(-50%);
+    top: -88px;
+    left: 50%;
+    width: 162px;
+    height: 150px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000042;
+    border-radius: 45px;
+    opacity: 1;
+  }
+
+  .navbar-brand img {
+    width: 70px;
+    height: 47px;
+    text-align: center;
+    margin-top: 52%;
+    margin-left: 29%;
+  }
+  .navbar-nav {
+    margin-left: -1.5rem;
+  }
+  .jumbotron p {
+    margin-left: -3rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .navbar-brand {
+    position: absolute;
+    transform: translateX(-50%);
+    top: -85px;
+    left: 50%;
+    width: 147px;
+    height: 147px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000042;
+    border-radius: 45px;
+    opacity: 1;
+  }
+  .jumbotron p {
+    margin-left: -8rem;
+  }
+  .pa2 {
+    padding-bottom: 3.5rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .form-group span {
+    right: 51px;
+  }
+  .form-control,
+  .btn-primary .form-control {
+    width: 250px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-group {
+    text-align: center;
+  }
+  .form-group .dropdown-menu {
+    border-radius: 5px;
+    min-width: 16.5rem !important;
+    position: absolute !important;
+
+    top: -2px !important;
+    left: 60px !important;
+  }
+  .form-group button {
+    height: 38px;
+  }
+  .d {
+    padding-left: 0px;
+  }
+  .navbar {
+    margin-left: -15px;
+    background-color: #ffffff;
+    margin-right: -15px;
+  }
+  .navbar-nav {
+    margin-left: -2rem;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #4621ad !important;
+    font-weight: bold;
+  }
+  .navbar-dark .navbar-nav .nav-link:focus,
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: black;
+  }
+  .jumbotron {
+    padding: 4rem 0rem;
+  }
+  .pa2 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    line-height: revert;
+  }
+  .jumbotron h1 {
+    text-align: left;
+    width: 270px;
+    margin-left: -5rem;
+  }
+
+  .s {
+    margin-top: 0.7rem !important;
+  }
+  .jumbotron p {
+    margin-top: 6rem;
+    width: 255px;
+    margin-left: -5rem;
+    text-align: left;
+  }
+  .navbar-brand img {
+    width: 61px;
+    height: 42px;
+    text-align: center;
+    margin-top: 59%;
+    margin-left: 29%;
+  }
+  .navbar-nav {
+    margin-left: -2rem;
+    margin-top: 1rem;
+  }
+  .lead {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .btns {
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid #4621ad;
+    transition: background 300ms, color 300ms;
+  }
+  .sig {
+    background-color: #4621ad;
+    color: white;
+    margin-right: 23px;
+    margin-left: 50px;
+  }
+  .act {
+    color: #4621ad !important;
+    background-color: white !important;
+  }
+  .notact {
+    color: white !important;
+    background-color: #4621ad !important;
+  }
+  .ssss {
+    margin-bottom: 500px;
+  }
+  .log {
+    margin-left: -14px;
+    background-color: #4621ad;
+    color: white;
+  }
+  .f {
+    margin-top: -32px;
+    margin-left: 44px;
+    /* top: 73px; */
+    position: absolute;
+    width: 350px;
+    height: 530px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000042;
+    border-radius: 45px;
+  }
+  .sss {
+    margin-bottom: 400px;
+    margin-top: 1rem;
+  }
+}
